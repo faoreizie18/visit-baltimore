@@ -1,0 +1,117 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+h4, p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500px;
+    text-align: left;
+    padding: 0;
+    }
+
+.italic {
+    font-style: italic;
+}
+
+img {
+    width: 200px;
+}
+
+#hero {
+    background-image: url("images/baltimore.jpg");
+    background-size: cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-title {
+    /* border-radius: 10px; */
+    background-color: #1D3557;
+    padding: 6px 24px;
+    margin: 0;
+}
+
+#hero-subtitle {
+    /* border-radius: 10px; */
+    background-color: coral;
+    padding: 6px 24px;
+    margin: 12px 0;
+}
+
+.activities {
+    background-color: #F4F4F8;
+    color: #1D3557;
+    padding: 20px 0 0 0;
+}
+
+#activity-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: inherit;
+    margin: 0 32px;
+}
+
+.activity-dl {
+      margin: 20px 10px 40px 10px;
+      border: 2px solid #1D3557;
+      border-radius: 20px;
+      padding: 20px;
+      width: 50%;
+}
+
+.activity-dl:hover{
+    color: #EB5E28;
+    box-shadow: 0 4px 0 coral;
+    border: 2px solid #1D3557;
+}
+
+.guide {
+    /* background-color: #457B9D; */
+    /* color: white; */
+    border: 2px solid #1D3557;
+    box-shadow: 10px -10px 0 coral;
+    border-radius: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: 40px auto;
+    padding: 12px 20px;
+}
+
+#headshot {
+    width: 200px;
+    margin: 20px 12px;
+    border-radius: 10px;
+}
+
+#guide-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px;
+}
