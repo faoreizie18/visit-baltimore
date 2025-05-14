@@ -33,7 +33,8 @@ h4, p {
 }
 
 img {
-    width: 200px;
+    width: 100%;
+    height: auto;
 }
 
 #hero {
@@ -72,7 +73,7 @@ img {
     flex-direction: row;
     justify-content: space-around;
     align-items: inherit;
-    margin: 0 32px;
+    margin: 0 80px;
 }
 
 .activity-dl {
